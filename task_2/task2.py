@@ -69,7 +69,7 @@ def get_result(circle_coords: tuple[tuple[int] | int], points_coords: tuple[tupl
     return result.rstrip('\n')
 
 
-def main(circle_filename_or_path: str, points_filename_or_path) -> None:
+def main(circle_filename_or_path: str, points_filename_or_path: str) -> None:
     circle = get_circle(circle_filename_or_path)
     points = get_points_coordinates(points_filename_or_path)
     result = get_result(circle_coords=circle, points_coords=points)
