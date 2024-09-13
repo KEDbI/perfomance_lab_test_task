@@ -3,7 +3,7 @@ import sys
 
 def check_input(n: int, m: int) -> bool:
     if isinstance(n, int) and isinstance(m, int):
-        if n > 0 and m > 1:
+        if n > 0 and 1 < m <= n:
             return True
         else:
             return False
