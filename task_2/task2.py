@@ -78,4 +78,3 @@ def main(circle_filename_or_path: str, points_filename_or_path) -> None:
 
 if __name__ == '__main__':
     main(sys.argv[1], sys.argv[2])
-
